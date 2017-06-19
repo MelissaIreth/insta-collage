@@ -13,17 +13,36 @@ body{
 header{
 	padding: 10px;
 }
-header img{
+.logo-i{
+	padding-top: 50px;
 	margin-top: 20px;
-}
-.ayuda{
-	padding-top: 30px;
-}
-.no{
-	padding-top: 30px;
 }
 #registro{
 	padding-bottom: 20px;
+}
+.form-control{
+	background-color: rgba(255,255,255,0.15);
+	color: whitesmoke;
+}
+.los-input{
+	padding: 20px;
+	border-color: rgba(255,255,255,0);
+	margin-bottom: 10px;
+}
+.btn-sesion{
+	border: 1px solid rgba(255,255,255,0.15);
+	border-radius: 3px;
+}
+
+.btn-link, a{
+	color: whitesmoke;
+}
+.btn-link:hover, a:hover{
+	color: whitesmoke;
+	border: 1px solid rgba(255,255,255,0.15);
+}
+.ayuda{
+	padding-top: 30px;
 }
 .circle{
 	display: inline-flex;
@@ -39,35 +58,17 @@ header img{
 .circle .fa{
 	color: whitesmoke;
 }
-.logo-i{
-	padding-top: 50px;
-}
-
-.form-control{
-	background-color: rgba(255,255,255,0.15);
-	color: whitesmoke;
-}
-
-.btn-sesion{
-	border: 1px solid rgba(255,255,255,0.15);
-	border-radius: 3px;
-}
-
-.btn-link, a{
-	color: whitesmoke;
-}
-.btn-link:hover, a:hover{
-	color: whitesmoke;
-	border: 1px solid rgba(255,255,255,0.15);
-}
-
-.los-input{
-	padding: 20px;
-	border-color: rgba(255,255,255,0);
-	margin-bottom: 10px;
+.no{
+	padding-top: 30px;
 }
 footer{
 	margin-top: 30px;
 	background-color: rgba(255,255,255,0.15);
 	padding-bottom: 30px;
+}
+
+.error-u, .error-p{
+	padding: 15px;
+	color: #9c2c2c;
+
 }

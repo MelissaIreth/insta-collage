@@ -1,0 +1,30 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	background-color: #222;
+	color: whitesmoke;
+	padding-top: 5px;
+}
+.photo-booth{
+	background-color: #222;
+	color: #323273;
+}
+footer{
+	background-color: #222;
+	color: whitesmoke;
+}
+.marco-foto{
+	border: 1px solid #222;
+	width: 230px;
+	height: 230px;
+}
+.cajitas-fotos{
+	margin: 0;
+	padding: 0;
+}
+img{
+	width: 100%;
+}
